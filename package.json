@@ -1,29 +1,31 @@
 {
-  "name": "gsm",
-  "version": "0.1.4",
-  "description": "A package that allows you to calculate the number of SMSes required to send a given text message over a GSM network",
-  "main": "lib/gsm.js",
-  "browser":"lib/browser/gsm.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"./bin/build.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vchatterji/gsm"
-  },
-  "keywords": [
-    "SMS",
-    "GSM"
-  ],
-  "devDependencies": {
-	  "browserify": "^10.2.0",
-	  "minifyify": "^7.0.0"
-  },
-  "author": "Varun Chatterji",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vchatterji/gsm/issues"
-  },
-  "homepage": "https://github.com/vchatterji/gsm"
+	"name": "gsm",
+	"version": "0.1.4",
+	"description": "A package that allows you to calculate the number of SMSes required to send a given text message over a GSM network",
+	"main": "lib/gsm.js",
+	"browser": "lib/browser/gsm.js",
+	"scripts": {
+		"test": "mocha",
+		"build": "./bin/build.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vchatterji/gsm"
+	},
+	"keywords": [
+		"SMS",
+		"GSM"
+	],
+	"devDependencies": {
+		"browserify": "17.0.0",
+		"chai": "4.3.10",
+		"minifyify": "^7.0.0",
+		"mocha": "10.2.0"
+	},
+	"author": "Varun Chatterji",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vchatterji/gsm/issues"
+	},
+	"homepage": "https://github.com/vchatterji/gsm"
 }
